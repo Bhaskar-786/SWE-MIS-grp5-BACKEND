@@ -14,6 +14,9 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         'api/login',
         'api/TokenError',
+        'add',
+        'sync-and-update',
+        'reinstate',
         'api/broadcasting/auth',
         'api/*'
     ];

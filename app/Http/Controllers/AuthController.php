@@ -13,6 +13,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\ControllerAPI;
 use Exception;
 use Illuminate\Support\Facades\Cookie;
+
 class AuthController extends ControllerAPI
 {
     public function __construct()
